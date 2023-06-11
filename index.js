@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const port = process.env.PORT || 3000;
 const uri =
-  "mongodb+srv://hazanido:ido100200310@cluster0.qdogqdd.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://hazanido:ido100200310@cluster0.3b6mksn.mongodb.net/?retryWrites=true&w=majority";
 
 // Creating a link to the database
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
