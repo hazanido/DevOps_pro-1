@@ -17,6 +17,7 @@ jobs:
     executor: my-exe
     steps:
       - checkout
+      - run: npm install
       - run: npm reduild
       - run: npm test
 
@@ -25,3 +26,4 @@ workflows:
   my-workflow:
     jobs:
       - test
+      
